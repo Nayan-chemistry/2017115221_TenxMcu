@@ -10,7 +10,7 @@
 #endif
 // Action Macro: exp: #define F_getData() ------
 
-// Function ------------------------------------
+// 函数声明
 void SysInit();
 void VarsInit();
 #endif 

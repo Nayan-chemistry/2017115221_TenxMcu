@@ -13,7 +13,7 @@
 
 // Action Macro: exp: #define F_getData() ------
 
-// Function ------------------------------------
+// 延时函数声明
 void DelayMs(uint16_t msCount);
 
 #endif 
