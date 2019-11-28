@@ -26,9 +26,9 @@ void main() {
 }
 //=============================================================================
 void DelayMs(uint16_t msCount) {
- uint16_t i, j;
-  for (i = 0; i < msCount; i++) {
-          for (j = 0; j < 1000; j++) {
+ 
+  for (uint16_t i = 0; i < msCount; i++) {
+          for (uint16_t j = 0; j < 1000; j++) {
              /* code */
              F_clearWDT();
     }
