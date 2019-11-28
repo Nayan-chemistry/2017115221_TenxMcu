@@ -27,7 +27,9 @@ void SysInit() {
   // IO 模式初始化
  P1MODL = 0xa8;
   // IO 状态初始化
-  F_ledOff();
+  F_led1Off();
+  F_led2Off();
+  F_led3Off();
 }
 //=============================================================================
 void VarsInit() {} 

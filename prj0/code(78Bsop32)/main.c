@@ -4,7 +4,6 @@
 void main() {
       SysInit();
         VarsInit();
-       F_ledOn();
    DelayMs(500); 
   //使能看门狗
   F_turnOnWDT();
@@ -12,10 +11,19 @@ void main() {
     //喂狗
      F_clearWDT();
     // user coding
-     F_ledOff();
-     DelayMs(500);
-     F_ledOn();
-     DelayMs(500);
+    //流水灯效果
+		//点亮LED1随即灭掉
+     F_led1On();
+     DelayMs(300);
+     F_led1Off();
+    //点亮LED2随即灭掉
+     F_led2On();
+     DelayMs(300);
+     F_led2Off();
+    //点亮LED3随即灭掉
+     F_led3On();
+     DelayMs(300);
+     F_led3Off();
   }
 }
 //=============================================================================
