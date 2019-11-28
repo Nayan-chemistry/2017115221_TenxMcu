@@ -4,7 +4,9 @@
 void main() {
   SysInit();
   VarsInit();
-   DelayMs(500); 
+  F_led1On();
+  DelayMs(500); 
+  
   //使能看门狗
   F_turnOnWDT();
   while (1) {
@@ -24,8 +26,17 @@ void main() {
     // F_led3On();
     // DelayMs(300);
     // F_led3Off();
+   
+    //获取按键标志
+     GetKeyValue();
+     if (D_keyValue1 == keyValue) {
+      F_led1Neg();
+    }
+    //初始化keyValue值
+    keyValue = D_keyNull;     
   }
 }
+
 //=============================================================================
 void DelayMs(uint16_t msCount) {
  uint16_t i,j;

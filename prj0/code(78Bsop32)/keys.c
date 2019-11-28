@@ -1,7 +1,8 @@
 #define __keys_c
 #include "includeAll.h"
+
 //=============================================================================
-void GetKeys() {
+void GetKeyValue() {
 
   static uint8_t tempKeyValue = D_keyNull;
 

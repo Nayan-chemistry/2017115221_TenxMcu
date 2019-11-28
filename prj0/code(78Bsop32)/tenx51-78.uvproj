@@ -396,6 +396,11 @@
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
+            <File>
+              <FileName>keys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\keys.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

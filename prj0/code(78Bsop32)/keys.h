@@ -1,5 +1,6 @@
 #ifndef __keys_h
 #define __keys_h
+
 // 定义按键的
 #define P_key P1_0
 
@@ -18,5 +19,5 @@ extern uint8_t keyValue;
 // Action Macro: exp: #define F_getData() ------
 
 // 声明GetKeys()函数
-void GetKeys();
+void GetKeyValue();
 #endif 
