@@ -24,10 +24,10 @@ void SysInit() {
   _nop_();
   _nop_();
 
-  // IO 模式初始化
- P1MODL = 0xa8;
+  // IO 模式初始化为推挽输出
+ P1MODL = 0xa8;       //将模式置为上拉输入
   // IO 状态初始化
-  F_led1Off();      //LED灯初始化为低电平状态
+  F_led1Off();      //LED灯初始化为低电平状态（不亮）
   F_led2Off();
   F_led3Off();
   

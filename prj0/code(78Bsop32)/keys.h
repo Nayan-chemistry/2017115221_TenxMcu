@@ -1,7 +1,7 @@
 #ifndef __keys_h
 #define __keys_h
 
-// 定义按键的
+// 定义控制按键的引脚
 #define P_key P1_0
 
 // 声明变量值
