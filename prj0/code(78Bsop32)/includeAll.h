@@ -1,5 +1,6 @@
 #include <REGtenxTM52F5278B.h>
 #include "typeAlias.h"
+#include "keys.h"
 #include "display.h"
 #include "init.h"
 #include "main.h"
