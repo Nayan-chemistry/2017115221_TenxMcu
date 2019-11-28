@@ -27,9 +27,12 @@ void SysInit() {
   // IO 模式初始化
  P1MODL = 0xa8;
   // IO 状态初始化
-  F_led1Off();      //初始化为低电平状态
+  F_led1Off();      //LED灯初始化为低电平状态
   F_led2Off();
   F_led3Off();
+  
+  P_key = D_keyValue1;
+  
 }
 //=============================================================================
 void VarsInit() {} 

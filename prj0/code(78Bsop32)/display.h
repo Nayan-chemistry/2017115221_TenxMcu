@@ -14,15 +14,18 @@
 
 #endif
 
-// 定义亮灯、关灯函数
+// 定义LED1亮灯、关灯、取反函数
 #define F_led1On() P_led1 = D_ledOn
 #define F_led1Off() P_led1 = D_ledOff
-
+#define F_ledNeg() P_led1 = ~P_led1  
+// 定义LED2亮灯、关灯、取反函数
 #define F_led2On() P_led2 = D_ledOn
 #define F_led2Off() P_led2 = D_ledOff
-
+#define F_ledNeg() P_led2 = ~P_led2  
+// 定义LED3亮灯、关灯、取反函数
 #define F_led3On() P_led3 = D_ledOn
 #define F_led3Off() P_led3 = D_ledOff
+#define F_ledNeg() P_led3 = ~P_led3  
 // Function ------------------------------------
 
 #endif 
