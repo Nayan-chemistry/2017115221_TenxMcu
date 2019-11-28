@@ -4,6 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
+                "D:\\Documents\\TenxCourse\\prj0\\code(78Bsop32)",
                 "C:\\Keil\\C51\\INC"
             ],
             "defines": [
@@ -17,4 +18,4 @@
         }
     ],
     "version": 4
-} 
+}
