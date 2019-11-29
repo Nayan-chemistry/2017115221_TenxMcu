@@ -2,9 +2,10 @@
 #include "includeAll.h"
 //=============================================================================
 void SysInit() {
-  
+ //启动后立即清除看门狗
+  F_clearWDT();  
  //时钟初始化
- CLKCON = 0x03; // Clock div 1// Clock div 1
+  CLKCON = 0x03; // Clock div 1// Clock div 1
   STPPCK = 0;
   STPFCK = 0;
   _nop_();
