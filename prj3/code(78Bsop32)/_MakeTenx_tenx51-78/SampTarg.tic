@@ -1,0 +1,2605 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<Setting>
+	<Message>
+		<PleaseUseNewVersionEVBoard>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please use new version of EV board!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="此仿真板已停用，请使用新版的仿真板！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please use new version of EV board!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</PleaseUseNewVersionEVBoard>
+		<ConfigWordMismatch>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Config word mismatch!Please Check!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="Config word前后不匹配！请确认config word是否有被误改！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Config word mismatch!Please Check!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ConfigWordMismatch>
+		<IDErrSpecialMsgType01>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please use specified ICE to emulate!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="需使用仿真专用IC!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please use specified ICE to emulate!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IDErrSpecialMsgType01>
+		<DebugVerifyErr>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Loading Verify Err!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="仿真源码校验错误!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Loading Verify Err!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DebugVerifyErr>
+		<DownloadOnlyWriter>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please use writer to download,this chip is not supported!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="此型号不支持下载功能!&#xa;1.请使用debug（仿真）功能下载程序，并移除所有断点。&#xa;2.或请使用Writer烧录!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please use writer to download,this chip is not supported!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DownloadOnlyWriter>
+		<HV_VBG_Invalid>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="HV VBG is invalid!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="HV VBG数据错误！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="HV VBG is invalid!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</HV_VBG_Invalid>
+		<LV_VBG_Invalid>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="LV VBG is invalid!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="LV VBG数据错误！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="LV VBG is invalid!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LV_VBG_Invalid>
+		<CheckMinFirmwareVersionFail>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please update the firmware version on T-Link ICE board to at least v%s!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="请更新您的T-Link ICE固件至少在版本v%s以上！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please update the firmware version on T-Link ICE board to at least v%s!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CheckMinFirmwareVersionFail>
+		<ChipUnSupportVBG>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="This chip is not supported VBG!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="此IC型号不支持VBG功能！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="This chip is not supported VBG!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ChipUnSupportVBG>
+		<VBGCheckError>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="VBG datas verify failed!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="此VBG数据校验错误！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="VBG datas verify failed!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</VBGCheckError>
+		<ChipDead>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="IC crashed! Please check your source code!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="IC死机！请确认您的源码！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="IC crashed! Please check your source code!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ChipDead>
+		<DlgPageGeneral_CompileWithMakeNote>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Compile + Make *%s">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="编译生成烧录档(*%s)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Compile + Make *%s">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_CompileWithMakeNote>
+		<DlgPageGeneral_MakeVersionInfo>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Make Version Info">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="生成版本信息">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Make Version Info">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_MakeVersionInfo>
+		<DlgPageGeneral_IsMakeVersionInfo>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Make version info file or not?&#xd;%s">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="是否生成版本信息？&#xd;%s">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Make version info file or not?&#xd;%s">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_IsMakeVersionInfo>
+		<CompileWithMakeBurnFileNote>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please finish following the steps in the picture because you enable the compile with making burn file function.&#xd;1.Open page &quot;Project -> Options for Target &apos;Target 1&apos; -> User.&quot;&#xd;2.Checked &quot;Run #1&quot; of After Build/Rebuild.&#xd;3.Copy the words in the textBox to the number 3 in the picture.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="由于&quot;编译生成烧录档&quot;使能的原因，请依照图片完成下列三项步骤：&#xd;1.开启页面&quot;Project -> Options for Target &apos;Target 1&apos; -> User.&quot;&#xd;2.勾选图片中的位置&quot;After Build/Rebuild -> Run #1&quot;&#xd;3.将文字框的内容复制到图片中编号3的位置。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please finish following the steps in the picture because you enable the compile with making burn file function.&#xd;1.Open page &quot;Project -> Options for Target &apos;Target 1&apos; -> User.&quot;&#xd;2.Checked &quot;Run #1&quot; of After Build/Rebuild.&#xd;3.Copy the words in the textBox to the number 3 in the picture.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CompileWithMakeBurnFileNote>
+		<OnChipCRC16_NoDebug>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Debug mode is not available because &quot;On Chip CRC16&quot; is enabled.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="因为&quot;On Chip CRC16&quot;已经使能，所以无法使用仿真模式。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Debug mode is not available because &quot;On Chip CRC16&quot; is enabled.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</OnChipCRC16_NoDebug>
+		<MakeBurnFile_Ask>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Following steps:keil-c will ask for us to reload project.&#xd; Please choose Yes.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="关闭窗口后，Keil-C会要求我们是否要重载项目(reload project)。&#xd;请选择是。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Following steps:keil-c will ask for us to reload project.&#xd; Please choose Yes.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</MakeBurnFile_Ask>	
+		<ChecksumIs>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="*** checksum is 0x%04X (%s)***">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="*** 校验码 0x%04X (%s)***">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="*** checksum is 0x%04X (%s)***">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ChecksumIs>	
+		<FIRCMaybeChanged>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please use this IC carefully,beacuse FRCF is maybe changed!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="此IC的IRC可能已经被改，请谨慎使用此IC!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please use this IC carefully,beacuse FRCF is maybe changed!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</FIRCMaybeChanged>
+		<CallKeilDll_FailedReadBin>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Failed to read bin file.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="无法读取bin檔。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Failed to read bin file.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CallKeilDll_FailedReadBin>
+		<CallKeilDll_VersionFileTooOld>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="AP version is too old.Please update to new version.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="插件版本太旧，请更新插件。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="AP version is too old.Please update to new version.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CallKeilDll_VersionFileTooOld>
+		<CallKeilDll_NoVersionFile>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="There is no version file.Please update to new version.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="找不到版本信息，请更新插件。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="There is no version file.Please update to new version.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CallKeilDll_NoVersionFile>
+		<CallKeilDll_FileNotReady>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="The files are not ready to make burn file.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="档案不完整，无法生成烧录档。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="The files are not ready to make burn file.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CallKeilDll_FileNotReady>
+		<CallKeilDll_NoKeilCFolder>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Can't find Keil-C installation folder.&#xd;Please set it manually.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="无法找到Keil-C安装目录，请手动设定。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Can't find Keil-C installation folder.&#xd;Please set it manually.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CallKeilDll_NoKeilCFolder>
+		<SavePrjFileFirst>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please click &quot;save all&quot; first.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="请先点击&quot;save all&quot;.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please click &quot;save all&quot; first.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SavePrjFileFirst>
+		<DlgOptionViewWDTDisable>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="WDT will be set as disable!&#xd;If you choose Yes,you won't change WDT again.&#xd;Disable WDT?">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="WDT将会被设定为disable。&#xd;如果选择是，下次将不能再修改WDT。&#xd;是否关狗(WDT disable)?">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="WDT will be set as disable!&#xd;If you choose Yes,you won't change WDT again.&#xd;Disable WDT?">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgOptionViewWDTDisable>
+		<DlgQTPMakeBurnFileWarning>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please make *%s first!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="请先产生烧录档!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please make *%s first!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPMakeBurnFileWarning>
+		<IapProgramWarning>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Warning: %s Writer will not program the IAP data reserve range!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="注意：%s烧录器将不会更动任何IAP保留区间的任何数据!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Warning: %s Writer will not program the IAP data reserve range!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IapProgramWarning>
+		<DlgQTPCheckShowAPP>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="%s創建成功，&#xd;是否要開啟檔案？">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="%s创建成功，&#xd;是否要开启档案？">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="%s創建成功，&#xd;是否要開啟檔案？">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPCheckShowAPP>
+		<DlgQTPOthers>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="其他">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="其他">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="其他">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPOthers>
+		<DlgQTPAPNoteVersion>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="APNote版別">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="APNote版别">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="APNote版別">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPAPNoteVersion>
+		<DlgQTPTableVersion>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="資料表版別">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="数据表版别">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="資料表版別">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPTableVersion>
+		<DlgQTPConfiguration>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="系統組態">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="系统配置">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="系統組態">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPConfiguration>
+		<DlgQTPChkProtect>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="需要燒保護">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="需要烧保护">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="需要燒保護">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPChkProtect>
+		<DlgQTPChecksum>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="校驗碼">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="校验码">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="校驗碼">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPChecksum>
+		<DlgQTPRollNumber>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="滾動碼">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="滚动码">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="滾動碼">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPRollNumber>
+		<DlgQTPApplication>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="應用">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="应用">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="應用">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPApplication>
+		<DlgQTPFrequency>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="工作頻率">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="工作频率">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="工作頻率">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPFrequency>
+		<DlgQTPVoltage>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="工作電壓">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="工作电压">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="工作電壓">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPVoltage>
+		<DlgQTPFileName>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="檔名(%s)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="檔名(%s)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="檔名(%s)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPFileName>
+		<DlgQTPChipName>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="IC名稱">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="IC名称">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="IC名稱">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPChipName>
+		<DlgQTPPhone>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="電話">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="电话">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="電話">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPPhone>
+		<DlgQTPCompany>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="寶號">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="宝号">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="寶號">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPCompany>
+		<DlgQTPCustomer>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="客戶">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="客户">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="客戶">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPCustomer>
+		<DlgQTPProgramChip>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="程式片">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="程序片">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="程式片">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPProgramChip>
+		<DlgQTPEmptyChip>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="空片">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="空片">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="空片">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPEmptyChip>
+		<DlgQTPChipType>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="晶片類型">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="IC类型">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="晶片類型">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgQTPChipType>
+		<ChipNotMatch>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Chip name is not match %s file!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="IC型号与烧录档(%s)不匹配!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Chip name is not match %s file!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ChipNotMatch>
+		<SystemConfigVerifyFailed>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Verify faied!&#xd;1.Lines between program pins maybe too long to make signal disturbance.&#xd;2.Please check to connect power.&#xd;3.Please remove the components connected to the program pins.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="校验失败!&#xd;1.请确认烧路线是否太长。或烧录脚位受其他元件干扰!&#xd;2.请确认烧录脚电源线是否接上&#xd;3.拆掉烧录pin上的组件!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Verify faied!&#xd;1.Lines between program pins maybe too long to make signal disturbance.&#xd;2.Please check to connect power.&#xd;3.Please remove the components connected to the program pins.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemConfigVerifyFailed>
+		<SignalUnstable>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xd;Please Check!&#xd;1.Lines between program pins maybe too long to make signal disturbance.&#xd;2.Please check to connect power.&#xd;3.Please remove the components connected to the program pins.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xd;1.请确认烧路线是否太长。或烧录脚位受其他元件干扰!&#xd;2.请确认烧录脚电源线是否接上&#xd;3.拆掉烧录pin上的组件!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please Check!&#xd;1.Lines between program pins maybe too long to make signal disturbance.&#xd;2.Please check to connect power.&#xd;3.Please remove the components connected to the program pins.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SignalUnstable>
+		<UnlockProtectFailed>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Unlock Protected Failed!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="解保护失败!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Unlock Protected Failed!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</UnlockProtectFailed>
+		<NoChip>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="No chip.Please check the program pin of ICE board.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="NO CHIP,请确认ICE连接脚位是否正确?">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="No chip.Please check the program pin of ICE board.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</NoChip>
+		<DeviceOccupied>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="No nonused device!&#xd;USB hardware has been occupied.&#xd;Please plug-in target board.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="USB装置被占用,请重新插拔装置.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="No nonused device!&#xd;USB hardware has been occupied.&#xd;Please plug-in target board.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DeviceOccupied>
+		<CodeSizeOverRange>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code size over range :&#xd;Chip size = 0x%X ;&#xd;Error Code size = 0x%X;&#xd;Please reference user manual.&#xd;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码大小超出范围:&#xd;芯片范围大小 = 0x%X ;&#xd;错误代码大小 = 0x%X;&#xd;请参考使用手册.&#xd;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code size over range :&#xd;Chip size = 0x%X ;&#xd;Error Code size = 0x%X;&#xd;Please reference user manual.&#xd;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CodeSizeOverRange>
+		<DownloadMissHex>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Download Fail! &#xd;Fail to open Hex file!&#xd;Please check &quot;Create HEX File(HEX-80)&quot;.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="下载失败! &#xd;无法开启Hex档案!&#xd;请确认是否已经勾选选项 &quot;Create HEX File(HEX-80)&quot;.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Download Fail! &#xd;Fail to open Hex file!&#xd;Please check &quot;Create HEX File(HEX-80)&quot;.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DownloadMissHex>	
+		<DontShowNextTime>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Do not show next time">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="下次不再显示">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Do not show next time">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DontShowNextTime>	
+		<FrequencySuggestion_6M>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Important note : &#xd;System Clock frequency Suggestion &#xd;--- less than 6MHz (SET FRCF/2).">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="重要：&#xd;系统频率建议低于6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Important note : &#xd;System Clock frequency Suggestion &#xd;--- less than 6MHz (SET FRCF/2).">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</FrequencySuggestion_6M>	
+		<ICEMsg_SetHardwareBreakFailed>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Set hardware break failed!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="设定硬件中断错误!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Set hardware break failed!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ICEMsg_SetHardwareBreakFailed>
+		<ICEMsg_ChipResetFailed>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Chip reset failed!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="芯片重启失败!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Chip reset failed!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ICEMsg_ChipResetFailed>
+		<ICEMsg_EnterICEModeFailed>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Enter ICE mode failed!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="进入仿真模式失败!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Enter ICE mode failed!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ICEMsg_EnterICEModeFailed>
+		<ICEMsg_WriteRomError>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Write ROM Error!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="写ROM错误!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Write ROM Error!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ICEMsg_WriteRomError>
+		<ICEMsg_ReadRomError>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Read ROM Error!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="读ROM错误!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Read ROM Error!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ICEMsg_ReadRomError>
+		<ICEMsg_CompareError>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Compare Error!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="数据检验错误!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Compare Error!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ICEMsg_CompareError>
+		<DlgPageUpdate_UpdateLatest>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="This is the latest version of F/W!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="固件已经是最新版本!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="This is the latest version of F/W!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_UpdateLatest>
+		<DlgPageUpdate_UpdateSuccess>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Update FW Success!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="固件更新成功!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Update FW Success!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_UpdateSuccess>
+		<DlgPageUpdate_UpdateNote>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="%s F/W Update Notification">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="%s固件更新提示">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="%s F/W Update Notification">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_UpdateNote>
+		<DlgPageUpdate_UpdateCheck>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Original F/W version is v%x.%x ---&#xd; New F/W version is v%x.%x ---&#xd; Upgrade F/W to a new version!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="原始固件版本為 v%x.%x ---&#xd; &#xd; 新固件版本為 v%x.%x ---&#xd; &#xd; 是否要更新？">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Original F/W version is v%x.%x ---&#xd; New F/W version is v%x.%x ---&#xd; Upgrade F/W to a new version!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_UpdateCheck>	
+		<DlgPageUpdate_ConnectTLink>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="T-link ICE Board is not connected!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="请接上T-link仿真板!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="T-link ICE Board is not connected!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_ConnectTLink>
+		<DlgPageUpdate_ConnectTUT52Writer>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="TUT52 Writer is not connected!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="请连接TUT52烧录器!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="TUT52 Writer is not connected!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_ConnectTUT52Writer>
+		<DlgPageUpdate_NoDevice>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="No Device">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="没有设备">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="No Device">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_NoDevice>
+		<DlgPageUpdate_UpdateFirmwareVersion>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Update T-link ICE Board">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="更新T-link固件版本">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Update T-link ICE Board">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_UpdateFirmwareVersion>
+		<DlgPageUpdate_FirmwareVersionTitle>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="F/W Version :">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="固件版本:">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="F/W Version :">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_FirmwareVersionTitle>
+		<DlgPageUpdate_VersionTitle>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Version Infomation :">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="软件版本:">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Version Infomation :">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageUpdate_VersionTitle>
+		<DlgPageLCD_PatFilePath>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Pat File Path:">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="Pat文件路径">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Pat File Path:">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageLCD_PatFilePath>
+		<DlgPageLCD_LCDFilePath>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="LCD File Path:">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="LCD文件路径">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="LCD File Path:">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageLCD_LCDFilePath>
+		<DlgPageLCD_DisplayLCD>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="show LCD in debug">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="仿真时显示">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="show LCD in debug">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageLCD_DisplayLCD>
+		<DlgPageLCD_EditLCDFile>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Edit LCD File">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="LCD编辑器">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Edit LCD File">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageLCD_EditLCDFile>
+		<DlgPageGeneral_SelectedFunction>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Selected Function">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="选择功能">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Selected Function">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_SelectedFunction>
+		<DlgPageGeneral_ItemDescription>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Item Description">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="项目描述">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Item Description">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_ItemDescription>
+		<DlgPageGeneral_OverwriteFRCF>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Overwrite FRCF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="修改FRCF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Overwrite FRCF">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_OverwriteFRCF>
+		<DlgPageGeneral_DoNotShowAPMsg>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Don&apos;t Show AP Message">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="禁用应用讯息显示">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Don&apos;t Show AP Message">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_DoNotShowAPMsg>
+		<DlgPageGeneral_DoNotShowICEMsg>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Don&apos;t Show ICE Message">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="禁用仿真讯息显示">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Don&apos;t Show ICE Message">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_DoNotShowICEMsg>
+		<DlgPageGeneral_QTPForm>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="QTP Form Generator">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="QTP表格生成">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="QTP Form Generator">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_QTPForm>
+		<DlgPageGeneral_DownloadFunction>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Download Function">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="下载功能">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Download Function">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_DownloadFunction>
+		<DlgPageGeneral_OptionNum>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Config Word(hex)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="Config Word(hex)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Config Word(hex)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_OptionNum>
+		<DlgPageGeneral_MakeBurnFile>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Make *%s">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="生成烧录档 *%s">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Make *%s">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_MakeBurnFile>
+		<DlgPageGeneral_ResetOption>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Reset Option">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="重置选项">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Reset Option">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_ResetOption>
+		<DlgPageGeneral_Option>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Option...">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="选项...">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Option...">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_Option>
+		<DlgPageGeneral_Device>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Device">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="IC型号">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Device">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPageGeneral_Device>
+		<UpdateMsg>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Online update">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="版本检查">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Online update">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</UpdateMsg>		
+		<DlgTitle_Update>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Online update">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="版本检查">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Online update">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgTitle_Update>
+		<DlgTitle_LCD>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="LCD Setting...">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="LCD调适">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="LCD Setting...">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgTitle_LCD>
+		<DlgTitle_Version>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Flash Download Setup V">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="软件版本">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Flash Download Setup V">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgTitle_Version>
+		<DlgPage_OnlineCheck>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Online check">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="版本检查">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Online check">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPage_OnlineCheck>
+		<DlgPage_General>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="General">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="一般">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="General">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPage_General>
+		<DlgPage_EditLCD>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Edit LCD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="LCD调适">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Edit LCD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPage_EditLCD>
+		<DlgPage_NoLCD>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="No LCD Device">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="无LCD装置">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="No LCD Device">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</DlgPage_NoLCD>
+		<IDSpeicalMsgDownload00017>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In download mode!please change device into %s chip!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="假使要使用DOWNLOAD模式，请使用%s芯片">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In download mode!please change device into %s chip!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IDSpeicalMsgDownload00017>
+		<IDSpeicalMsgDebug00017>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="This chip is not supported debug mode!&#x000d;If you want to use debug mode,please use chip %s.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="此芯片并不支持仿真模式!&#x000d;如果想要进行仿真，请使用%s芯片。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="This chip is not supported debug mode!&#x000d;If you want to use debug mode,please use chip %s.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IDSpeicalMsgDebug00017>
+		<ICEMode4WireForceDisable>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="After this version,we will force ICE Mode to use 5-wire.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在此版本之后，ICE模式(ICE Mode)将强制使用5线(5-wire)。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="After this version,we will force ICE Mode to use 5-wire.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</ICEMode4WireForceDisable>
+		<WDTEDisable>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="After this version,we suggest to write code at SFR F7h to enable/disable WDT.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在此版本之后，我們建議通过源程序设定SFR F7h寄存器，以关闭或使能看门狗 (WDTE)，且不能改变CFGWL低6位数据，如CFGWL &amp;= 0x3f。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="After this version,we suggest to write code at SFR F7h to enable/disable WDT.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</WDTEDisable>
+		<WaitBusyTimeout>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please set ICE mode as 4-wire!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="请确认设定选项是否为4-wire模式?">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please set ICE mode as 4-wire!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</WaitBusyTimeout>
+		<OperateVoltage3V>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Please change operating voltage to 3V mode by option window!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="请在设定对话框，将操作电压(Operating Voltage)更改为3V!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Please change operating voltage to 3V mode by option window!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</OperateVoltage3V>
+		<CFGWDataOverlap>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Note : CFGW data overlap in %04X!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="注意: CFGW在 %04X 位置数据冲突!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Note : CFGW data overlap in %04X!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CFGWDataOverlap>
+		<CodeRangeError>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.Code Range Error!! 0x33~0x3A Can't Be Used!!&#xa;&#xa;2.Please Check Options->BL51 Locate->Code Range">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1. 源码范围错误!! 请勿使用0x33~0x3A地址范围!!&#xa;&#xa;2. 范围请查询Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.Code Range Error!! 0x33~0x3A Can't Be Used!!&#xa;&#xa;2.Please Check Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CodeRangeError>
+		<CodeRangeError_CRC16>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range Error!! 0x%04X~0x%04X can't be used!!&#xa;&#xa;Or you can disable&quot;On Chip CRC16&quot; setting!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="源码范围错误!! 请勿使用0x%04X~0x%04X地址范围!!&#xa;&#xa;或是将&quot;On Chip CRC16&quot;除能即可使用。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range Error!! 0x%04X~0x%04X can't be used!!&#xa;&#xa;Or you can disable&quot;On Chip CRC16&quot; setting!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CodeRangeError_CRC16>
+		<CodeRangeLimit_CRC16>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="It has following restriction when use enables &quot;On Chip CRC16&quot;.&#xa;&#xa;1.0x%04X~0x%04X can't be used.&#xa;&#xa;2.Keil-C will auto calculate CRC result and fill into CRC16L/H address,User can call original manufacturer CRC16 subrutine file to re-calculate CRC to compare with above CRC16L/H.&#xa;&#xa;3.DON'T set any breakpoints, user can use ICE Run/Stop to trace result.&#xa;&#xa;4.&quot;On Chip CRC16: Enable&quot; will increase HEX file download time.&#xa;Tip: In order to save HEX download time, don't set &quot;On Chip CRC16: Enable&quot; until the program is completed.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="当&quot;On Chip CRC16&quot;使能的时候，会有下列限制。&#xa;&#xa;1.请勿使用0x%04X~0x%04X地址范围。&#xa;&#xa;2.KeilC 会自动计算CRC并填入CRC16L/H地址。用户可以呼叫原厂提供的CRC16子程序与上述CRC16L/H比对。&#xa;&#xa;3.绝对不要设置任何中断点,可利用ICE Run/Stop 来作检查&#xa;&#xa;4.设置 &quot;On Chip CRC16: Enable&quot; 会增加HEX档案下载时间&#xa;提示: 可以先设置 &quot;On Chip CRC16: Disable&quot; 节省下载时间, 等调试完成后, 再设置 &quot;On Chip CRC16: Enable&quot; 验证!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="It has following restriction when use enables &quot;On Chip CRC16&quot;.&#xa;&#xa;1.0x%04X~0x%04X can't be used.&#xa;&#xa;2.Keil-C will auto calculate CRC result and fill into CRC16L/H address,User can call original manufacturer CRC16 subrutine file to re-calculate CRC to compare with above CRC16L/H.&#xa;&#xa;3.DON'T set any breakpoints, user can use ICE Run/Stop to trace result.&#xa;&#xa;4.&quot;On Chip CRC16: Enable&quot; will increase HEX file download time.&#xa;Tip: In order to save HEX download time, don't set &quot;On Chip CRC16: Enable&quot; until the program is completed.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CodeRangeLimit_CRC16>
+		<CodeRangeError_Set>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.Code Range Error!! 0x%04X~0x%04X Can't Be Used!!&#xa;&#xa;2.Please Check Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1. 源码范围错误!! 请勿使用 0x%04X~0x%04X 地址范围!!&#xa;&#xa;2. 范围请查询Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.Code Range Error!! 0x%04X~0x%04X Can't Be Used!!&#xa;&#xa;2.Please Check Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CodeRangeError_Set>
+		<CodeRangeError_OverEnd>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1. Code Range Error!! Please don't over the address 0x%04X!!&#xa;&#xa;2.Please Check Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1. 源码范围错误!! 地址范围请勿超过 0x%04X!!&#xa;&#xa;2. 范围请查询Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1. Code Range Error!! Please don't over the Address 0x%04X!!&#xa;&#xa;2.Please Check Options->BL51 Locate->Code Range.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CodeRangeError_OverEnd>
+		<IAPCodeRangeError_Set>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.IAP overlap error at 0x%04X !!&#xa;&#xa;2.Please Check IAP range setting.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1. 源码在IAP位置数据冲突:0x%04X !!&#xa;&#xa;2. 请查询IAP设定范围.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.IAP overlap error at 0x%04X !!&#xa;&#xa;2.Please Check IAP range setting.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IAPCodeRangeError_Set>			
+		<MOVCLock>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Setting MOVC Lock configuration may disable the MOVC instruction for [0000~01ffh] code area.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="使能MOVC Lock，ROM地址在[0000~01ffh]范围内，无法使用MOVC指令!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Setting MOVC Lock configuration may disable the MOVC instruction for [0000~01ffh] code area.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</MOVCLock>
+		<LVR1Enable>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="LVR1 must be Enable!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="LVR1必须使能!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="LVR1 must be Enable!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVR1Enable>
+		<LVREnable>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="LVR must be Enable!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="LVR必须使能!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="LVR must be Enable!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVREnable>
+		<Use5V5Wire_0013>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In 5V mode, must use 5-Wire!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="5V模式下，必须使用5线仿真！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In 5V mode, must use 5-Wire!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</Use5V5Wire_0013>
+		<CantFindDevice>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Can not found any device . Please recheck target board!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="无法找到装置，请确认目标板！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Can not found any device . Please recheck target board!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CantFindDevice>
+		<NMIControlFail>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="NMI : Set Control fail!!">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="NMI : 控制失败！">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="NMI : Set Control fail!!">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</NMIControlFail>
+		<IDMismatch>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="ID不匹配,请确认仿真板或IC型号（工程）选择是否正确?&#xa;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IDMismatch>
+		<IDMismatch_ErrCode>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;Error code: ">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="ID不匹配,请确认仿真板或IC型号（工程）选择是否正确?&#xa;错误码:">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;Error code: ">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IDMismatch_ErrCode>
+		<IDMismatch_EVBoard>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;This chip is ">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="ID不匹配。请确认仿真板或IC型号（工程）选择是否正确?&#xa;此芯片为">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;This chip is ">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IDMismatch_EVBoard>
+		<IDMismatch_MultiEVBoard>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;Maybe this chip is ">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="ID不匹配。请确认仿真板或IC型号（工程）选择是否正确?&#xa;此芯片可能为">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="ID mismatch. Please recheck EV board or KeilC selected device.&#xa;Maybe this chip is ">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</IDMismatch_MultiEVBoard>
+		<SystemFrequencySuggest>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="System Clock frequency Suggestion:">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="系统频率建议:">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="System Clock frequency Suggestion:">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequencySuggest>
+		<SystemFrequency0000301>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0000301>
+		<SystemFrequency0000302>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0000302>
+		<CodeRange00003>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00003>
+		<IIC_PIN00003>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位1.2/1.3，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00003>
+		<ICENoPWRSAV00003>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在ICE模式下,不允许设定PWRSAV SFR。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</ICENoPWRSAV00003>
+		<CodeRange00004>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFE&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFE">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFE&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFE">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFE&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFE">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00004>
+		<IIC_PIN00004>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位1.2/1.3，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00004>
+		<ICENoPWRSAV00004>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在ICE模式下,不允许设定PWRSAV SFR。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</ICENoPWRSAV00004>
+		<CodeRange00009>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFE&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFE">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFE&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFE">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFE&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFE">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00009>
+		<IIC_PIN00009>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位1.2/1.3，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00009>		
+		<ICENoPWRSAV00009>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在ICE模式下,不允许设定PWRSAV SFR。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</ICENoPWRSAV00009>
+		<SystemFrequency0000601>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0000601>		
+		<CodeRange00006>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0xFFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0xFFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00006>
+		<SystemFrequency0001001>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="%s&#x9;-小于 6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001001>
+		<SystemFrequency0001002>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001002>		
+		<Enable_IAPWE0001002>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="%s need to enable IAPWE for IAP write.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="%s 为了写入IAP数据，必须将IAPWE使能">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="%s need to enable IAPWE for IAP write.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</Enable_IAPWE0001002>
+		<SystemFrequency0001003>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001003>
+		<CodeRange00010>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00010>
+		<IIC_PIN00010>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位2.4/2.5或者3.0/3.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00010>
+		<SystemFrequency0001201>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001201>
+		<SystemFrequency0001202>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001202>
+		<SystemFrequency0001203>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001203>		
+		<CodeRange00012>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00012>
+		<IIC_PIN00012>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位3.0/3.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00012>
+		<SystemFrequency0001301>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001301>
+		<SystemFrequency0001302>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001302>
+		<Enable_IAPWE0001302>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="%s need to enable IAPWE for IAP write.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="%s 为了写入IAP数据，必须将IAPWE使能">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="%s need to enable IAPWE for IAP write.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</Enable_IAPWE0001302>
+		<CodeRange00013>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00013>
+		<IIC_PIN00013>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位1.2/1.3，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00013>
+		<VoltageSuggest00013>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Operating voltage Setting Suggestion:  A. 5V: LDOE=1, VSET2=VSET1=7\n  B. 3V: LDOE=0\n">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="操作电压建议设定值:  A. 5V: LDOE=1, VSET2=VSET1=7\n  B. 3V: LDOE=0\n">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Operating voltage Setting Suggestion:  A. 5V: LDOE=1, VSET2=VSET1=7\n  B. 3V: LDOE=0\n">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</VoltageSuggest00013>
+		<ICENoPWRSAV00013>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在ICE模式下,不允许设定PWRSAV SFR。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</ICENoPWRSAV00013>
+		<SystemFrequency0001401>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001401>
+		<SystemFrequency0001402>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001402>
+		<CodeRange00014>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x3CFF,0x4000-0x7FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x7FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x3CFF,0x4000-0x7FFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0x7FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x3CFF,0x4000-0x7FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x7FFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00014>
+		<IIC_PIN00014>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (maybe P12/P13 or P22/P23) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位1.2/1.3或者2.2/2.3，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (maybe P12/P13 or P22/P23) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00014>
+		<VoltageSuggest00014>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Operating voltage Setting Suggestion:  A. 5V: LDOE=1, VSET2=VSET1=7\n  B. 3V: LDOE=0\n">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="操作电压建议设定值:  A. 5V: LDOE=1, VSET2=VSET1=7\n  B. 3V: LDOE=0\n">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Operating voltage Setting Suggestion:  A. 5V: LDOE=1, VSET2=VSET1=7\n  B. 3V: LDOE=0\n">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</VoltageSuggest00014>
+		<ICENoPWRSAV00014>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在ICE模式下,不允许设定PWRSAV SFR。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, can't setting the PWRSAV SFR.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</ICENoPWRSAV00014>		
+		<SystemFrequency0001501>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001501>
+		<CodeRange00015>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00015>
+		<IIC_PIN00015>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (maybe P12/P13 or P22/P23) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位1.2/1.3或者2.2/2.3，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (maybe P12/P13 or P22/P23) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00015>
+		<SystemFrequency0001601>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001601>
+		<SystemFrequency0001602>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001602>
+		<CodeRange00016>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB &#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00016>
+		<IIC_PIN00016>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位2.4/2.5或者3.0/3.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00016>
+		<SystemFrequency0001701>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001701>
+		<CodeRange00017>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0xFFB&#xa;%s下载模式:%s0x00-0x32,0x3B-0xFFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFFB">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00017>
+		<IIC_PIN00017>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位2.4/2.5或者3.0/3.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00017>
+		<SystemFrequency0001801>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 10MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001801>
+		<CodeRange00018>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00018>
+		<IIC_PIN00018>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位2.4/2.5或者3.0/3.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (maybe P24/P25 or P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00018>
+		<SystemFrequency0001901>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0001901>
+		<CodeRange00019>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x0CFF,0x1000-0x1FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</CodeRange00019>
+		<IIC_PIN00019>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位3.0/3.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P30/P31) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00019>
+		<SystemFrequency0002301>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 12MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 12MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 12MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0002301>		
+		<CodeRange00023>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFD&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFD">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFD">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00023>
+		<IIC_PIN00023>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P12/P13 or P36/P37) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位1.2/1.3或者3.6/3.7，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P12/P13) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00023>
+		<SystemFrequency0002401>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0002401>		
+		<CodeRange00024>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x2CFF,0x3000-0x3FEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x2CFF,0x3000-0x3FEF&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x2CFF,0x3000-0x3FEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FEF">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00024>
+		<IIC_PIN00024>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P3.0/P3.1 or P0.0/P0.1) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位3.0/3.1或0.0/0.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P3.0/P3.1 or P0.0/P0.1) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00024>
+		<SystemFrequency0002501>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0002501>
+		<CodeRange00025>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB &#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1CFF,0x2000-0x3FFB&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FFB">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00025>
+		<IIC_PIN00025>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (maybe P30/P31 or P36/P17) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位3.0/3.1或者3.6/1.7，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (maybe P30/P31 or P36/P17) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN00025>
+		<SystemFrequency0002601>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 6MHz (FRCF不能使用1分频)">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 6MHz (SET FRCF/2)">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0002601>		
+		<CodeRange00026>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFF9&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFF9">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0xFF9&#xa;%s下载模式:%s0x00-0x32,0x3B-0xFF9">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFFD&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFF9">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00026>
+		<SystemFrequency0002701>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="TM52M8254/58/64/68 : 操作頻率一定要小於8MHz或快鐘2分頻 &#xa;&#x9;TM52M8254/58/64/68 operating freq must less than 8MHz or FRC/2">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="TM52M8254/58/64/68 : 操作频率一定要小于8MHz或快钟2分频">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="TM52M8254/58/64/68 : 操作頻率一定要小於8MHz或快鐘2分頻&#xa;&#x9;TM52M8254/M8258/M8264/M8268 operating freq must less than 8MHz or FRC/2">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency0002701>		
+		<CodeRange00027>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range with Debug/Download Mode:&#xa;&#x9;A.TM52M8254/58:&#x9;0x00-0x32,0x3B-0xFF7&#xa;&#x9;B.TM52M8264/68:&#x9;0x00-0x32,0x3B-0x1FF7">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围 仿真/下载模式:&#xa;%sTM52M8254/58:%s&#x9;0x00-0x32,0x3B-0xFF7&#xa;&#xa;%sTM52M8264/68:%s&#x9;0x00-0x32,0x3B-0x1FF7">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range with Debug/Download Mode:&#xa;&#x9;A.TM52M8254/58:&#x9;0x00-0x32,0x3B-0xFF7&#xa;&#x9;B.TM52M8264/68:&#x9;0x00-0x32,0x3B-0x1FF7">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange00027>
+		<LVRWarning00003>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1.如果 VCC = 5V,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.如果 Fsysclk > 6MHz,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.如果 Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),建议 &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVRWarning00003>
+		<LVRWarning00006>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1.如果 VCC = 5V,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.如果 Fsysclk > 6MHz,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.如果 Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),建议 &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVRWarning00006>
+		<LVRWarning00010>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1.如果 VCC = 5V,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.如果 Fsysclk > 6MHz,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.如果 Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),建议 &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVRWarning00010>
+		<LVRWarning00012>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1.如果 VCC = 5V,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.如果 Fsysclk > 6MHz,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.如果 Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),建议 &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.If VCC = 5V,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;2.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVRWarning00012>
+		<LVRWarning00016>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.If VCC = 5V,suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;2.If Fsysclk ≧ 9.8MHz,suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;4.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1.如果 VCC = 5V,建议 &quot;LV Reset 3.5V&quot;&#xa;&#xa;2.如果 Fsysclk ≧ 9.8MHz,建议 &quot;LV Reset 3.5V&quot;&#xa;&#xa;3.如果 Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),建议 &quot;LV Reset 3.5V&quot;&#xa;&#xa;4.如果 Fsysclk > 6MHz,建议 &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.If VCC = 5V,suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;2.If Fsysclk ≧ 9.8MHz,suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;4.If Fsysclk > 6MHz,suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVRWarning00016>
+		<LVRWarning00017>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="1.If VCC = 5V,suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;2.If Fsysclk ≧ 9.8MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="1.如果 VCC = 5V,建议 &quot;LV Reset 3.5V&quot;&#xa;&#xa;2.如果 Fsysclk ≧ 9.8MHz,建议 &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.如果 Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),建议 &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="1.If VCC = 5V,suggest &quot;LV Reset 3.5V&quot;&#xa;&#xa;2.If Fsysclk ≧ 9.8MHz,suggest &quot;LV Reset 2.9V&quot;&#xa;&#xa;3.If Fsysclk=FRC/1 (SELFCK=1 &amp; CLKPSC=3),suggest &quot;LV Reset 2.9V&quot;">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</LVRWarning00017>
+		<SystemFrequency_8M>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 8MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency_8M>
+		<SystemFrequency_16M>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="&#xa;&#x9;%s&#x9;-小于 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="&#xa;&#x9;%s&#x9;-less than 16MHz">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>
+		</SystemFrequency_16M>
+		<CodeRange_0x00_0x32_0x3B_0xFEF>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0xFEF&#xa;%s下载模式:%s0x00-0x32,0x3B-0xFEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0xFEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0xFEF">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange_0x00_0x32_0x3B_0xFEF>
+		<CodeRange_0x00_0x32_0x3B_1FEF>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1FEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x1FEF&#xa;%s下载模式:%s0x00-0x32,0x3B-0x1FEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x1FEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x1FEF">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange_0x00_0x32_0x3B_1FEF>
+		<CodeRange_2D00_3FEF>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x2CFF,0x3000-0x3FEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="代码范围&#xa;%s仿真模式:%s0x00-0x32,0x3B-0x2CFF,0x3000-0x3FEF&#xa;%s下载模式:%s0x00-0x32,0x3B-0x3FEF">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="Code Range:&#xa;&#x9;A.with Debug Mode:&#x9;0x00-0x32,0x3B-0x2CFF,0x3000-0x3FEF&#xa;&#x9;B.with Download Mode:&#x9;0x00-0x32,0x3B-0x3FEF">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>		
+		</CodeRange_2D00_3FEF>
+		<IIC_PIN_P30_31_P00_01>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use (P3.0/P3.1 or P0.0/P0.1) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位3.0/3.1或0.0/0.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use (P3.0/P3.1 or P0.0/P0.1) ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN_P30_31_P00_01>
+		<IIC_PIN_P30_31>
+			<Language Enable="0" Value="0">
+				<Item TypeName="TranditionCh" Index="0" Value="In ICE mode, don't use P3.0/P3.1 ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="SimpleCh" Index="1" Value="在仿真模式下,请勿使用通信脚位3.0/3.1，或改动该脚位的模式，也不能作为LCD、LED、AD、TK口。&#xa;2.如果download成功，仿真跑不动，则是通讯口被占用，请注意检查以上问题，或更换一个IC试试。">
+					<FontSize>10</FontSize>
+				</Item>
+				<Item TypeName="English" Index="2" Value="In ICE mode, don't use P3.0/P3.1 ICE pins or change its pin mode.">
+					<FontSize>10</FontSize>
+				</Item>
+			</Language>	
+		</IIC_PIN_P30_31>
+	</Message>
+</Setting>
