@@ -13,7 +13,7 @@
 // Action Macro: exp: #define F_getData() ------
 
 // 延时清除看门狗函数声明
-void DelayMs(uint16_t msCount);
+void DelayMs(uint16_t msCount); 
 
 
 #endif 
