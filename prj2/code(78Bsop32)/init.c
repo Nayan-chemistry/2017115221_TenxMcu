@@ -26,7 +26,7 @@ void SysInit() {
   
 
   // IO 模式初始化初始化
- P1MODL = 0xaa;       
+  P1MODL = 0xa8;  //将模式置位上拉模式       
   // IO 状态初始化
   F_led1Off();      //LED灯初始化为低电平状态（不亮）
   F_led2Off();
