@@ -23,12 +23,10 @@ void SysInit() {
   _nop_();
   _nop_();
   _nop_();
-  
 
   // IO 模式初始化为推挽输出
   P1MODL = 0xaa; 
   P1_0 = 1;  
-  
   // IO 状态初始化
   F_ledOff();      //LED灯初始化为低电平状态（不亮）
 
