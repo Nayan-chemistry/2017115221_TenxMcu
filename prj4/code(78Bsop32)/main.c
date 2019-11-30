@@ -11,6 +11,9 @@ void main(){
   F_turnOnWDT();
 
   while (1) {
+    //喂狗
+    F_clearWDT();
+    //业务代码
     TimeProcess();
     DisplayProcess();
     TaskSetting();
@@ -28,13 +31,13 @@ void TimeProcess() {}
 void TaskSetting(){	}
 //=========单端口控制LED亮灭===================
 void TaskProcess() {
-  
-	if (model== 1){          //状态标志为1时，设置为推挽输出
-		
-		//设置为上拉模式，获取按键值
-		P1MODL = 0xa8;		
+
+	//设置为上拉模式，获取按键值
+	    P1MODL = 0xa8;		
 		GetKeyValue();
-		DelayMs(100);		 //稍微延时，获取键值
+        DelayMs(100);		 //稍微延时，获取键值
+
+	if (model== 1){          //状态标志为1时，设置为推挽输出	
 		//按下按键
 		if(D_keyValue1 == keyValue){
 			model_Switch();	 //状态标志取反
@@ -42,11 +45,7 @@ void TaskProcess() {
 		P1MODL = 0xaa;		 //模式为推挽输出，点亮LED
 		
 	}
-	  else {       //未按下按键，为上拉模式
-
-	    //设置为上拉模式，获取按键值
-		P1MODL = 0xa8;	
-		GetKeyValue();
+	  else {                  //未按下按键，为上拉模式
 		//按下按键
 		if(D_keyValue1 == keyValue){
 			model_Switch();	  //状态标志取反
