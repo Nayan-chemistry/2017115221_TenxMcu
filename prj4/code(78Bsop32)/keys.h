@@ -16,8 +16,6 @@ uint8_t keyValue;
 extern uint8_t keyValue;
 #endif
 
-// Action Macro: exp: #define F_getData() ------
-
 // 声明GetKeys()函数
 void GetKeyValue();
 #endif 
