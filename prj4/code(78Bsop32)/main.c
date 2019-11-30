@@ -55,7 +55,7 @@ void TaskSetting() {
 		P1MODL = 0xaa;		       //将模式置为推挽输出，点亮LED
 		}
 	else {
-	       //模式标志未改变，该模式为上拉输入
+	       //模式标志未改变，该模式设置为上拉输入
 			if(D_keyValue1 == keyValue){
 				model = ~model;   //模式标志为取反
 			}
