@@ -1,0 +1,9 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<CallKeilDll>
+	<ProjectFileName>tenx51-78.uvproj</ProjectFileName>
+	<ChipName>TM52F5278B</ChipName>
+	<DllName>SampTarg</DllName>
+	<OutFileName>tenx51-78</OutFileName>
+	<OutFolderName>.\Objects\</OutFolderName>
+	<DllFolderPath>D:\software\keil_v5\</DllFolderPath>
+</CallKeilDll>
