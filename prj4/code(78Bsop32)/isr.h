@@ -12,6 +12,4 @@ bit b1ms;
 extern bit b1ms;
 #endif
 
-// Action Macro: exp: #define F_getData() ------
-
 // Function ------------------------------------
