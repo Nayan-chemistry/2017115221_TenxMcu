@@ -23,7 +23,7 @@ void SysInit() {
   _nop_();
   _nop_();
   _nop_();
-  
+   
 
   // IO 模式初始化为推挽输出
  P1MODL = 0xaa;       
