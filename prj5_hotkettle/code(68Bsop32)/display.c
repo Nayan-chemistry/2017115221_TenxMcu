@@ -1,6 +1,7 @@
 #define __display_c
 #include "includeAll.h"
 
+//数组表示数码管的显示数值，从1-F、0xff和0x00
 code const uint8_t displayFonts[19] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f,0x77,0x7c,0x39,0x5e,0x79,0x71,0x80,0x00,0xff};
 
 void SMG_Select(uint8_t position, uint8_t number)
@@ -30,7 +31,8 @@ void SMG_Select(uint8_t position, uint8_t number)
 }
 
 void SMG_Display(uint8_t number)
-{
+{        
+        //显示两位数码管的个位和十位
 		uint8_t i,j;
 		
 		if(number>100)
@@ -46,7 +48,8 @@ void SMG_Display(uint8_t number)
 }
 
 void Set_Pin_Sta()
-{
+{      
+       //设置引脚状态
 		P1_2 = 1;
 		P1_7 = 1;
 }
