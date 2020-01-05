@@ -19,7 +19,7 @@
    };
  
 //39K
-code const uint16_t adTable[D_tableSize] = {
+/*code const uint16_t adTable[D_tableSize] = {
 	3657, 3638, 3618, 3597, 3576, 3554, 3531, 3508, 3483, 3458, 3432, 3403, 3375,
 	3347, 3319, 3290, 3260, 3230, 3198, 3165, 3131, 3095, 3059, 3022, 2984, 2947,
 	2909, 2873, 2838, 2805, 2775, 2739, 2702, 2663, 2623, 2582, 2540, 2497, 2453,
@@ -28,20 +28,20 @@ code const uint16_t adTable[D_tableSize] = {
 	1410, 1376, 1343, 1310, 1278, 1247, 1216, 1186, 1157, 1129, 1102, 1076, 1051,
 	1026, 1002, 978, 955, 932, 909, 887, 865, 843, 821, 799, 777, 755, 735, 716,
 	698, 680, 663, 646, 630, 614, 598
-};
+};*/
 
 
 //=============================================================================
 void GetTemp(void)
 {
 //var
-	static uint16_t adFilterResult = 2200;  //39K
+	static uint16_t adFilterResult = 3650;  //39K
 	uint16_t adCurResult;
 	uint8_t head, middle, end;
 
 //code
-	P3MODL |= 0x30;  //ad1=P3.2
-	CHSEL = D_wdChannel;   //AD1	p3.2
+	P3MODL |= 0x30;  //ad1=P3.3
+	CHSEL = D_wdChannel;   //AD1	p3.3
 	OPTION = 0x04;   //ADC Clock Rate 10: SYSCLK/16
 	CLRWDT = 1;
 	ADSOC = 1;
@@ -55,34 +55,22 @@ void GetTemp(void)
 	head >>= 4;
 	adCurResult += head;
 	if (adCurResult <= D_shortValue) {
-		bAdShort = 1;
-		bAdOff = 0;
-		bKettleValid = 0;
-		padInvalidTimer1 = D_padInvalidTime1;
-		padInvalidTimer2 = D_padInvalidTime2;
+
 		return;
 	}else {
 		bAdShort = 0;
 		if (adCurResult >= D_offValue) {
-			bAdOff = 1;
-			bKettleValid = 0;
-			padInvalidTimer2 = D_padInvalidTime2;
-			padInvalidTimer1 = D_padInvalidTime1;
+
 			return;
 		}else {
 			bAdOff = 0;
-			if (bKettleValid == 0) {
-				bTestWaterLevel = 1;
-				testWaterLowCounter = 0;
-				testWaterCounter = 0;
-				padInvalidTimer2 = D_padInvalidTime2;
-				padInvalidTimer1 = D_padInvalidTime1;
-			}
 			bKettleValid = 1;
-			adFilterResult = (adFilterResult * 7 + adCurResult) / 8;
-			head = 0;
-			end = D_tableSize - 1;
-			middle = (head + end) / 2;
+				adFilterResult = (adFilterResult * 3 + adCurResult) / 4;
+				//adFilterResult = adCurResult;
+				//二分查找 对应AD值的数组下标 即 温度
+				head = 0;
+				end = D_tableSize - 1;
+				middle = (head + end) / 2;
 			while (head != end) {
 				if (adFilterResult < adTable[middle]) {
 					head = middle + 1;
@@ -99,53 +87,9 @@ void GetTemp(void)
 			}//end while
 			curTemp = middle + 5;
 			if (curTemp > 100) {
-				curTemp = 100;
+				curTemp = 99;
 			}
-			// if (curTemp >= 45) {
-			//  waterLowAdThreshold = D_waterLowAd - 300;
-			//  if (curTemp >= 80) {
-			//      waterLowAdThreshold = D_waterLowAd - 1600;
-			//  }
-			// }else {
-			//  waterLowAdThreshold = D_waterLowAd;
-			// }
-			waterLowAdThreshold = D_waterLowAd;
-		}
-	}
-}
-//=============================================================================
-void TestWaterLevel()
-{
-	uint16_t adWaterLevel;
-	uint8_t tmp;
 
-//code
-	P3MODL |= 0xc0;  //ad0=P3.3
-	CHSEL = D_swChannel;   //AD0
-	OPTION = 0x04;   //ADC Clock Rate 10: SYSCLK/16
-	CLRWDT = 1;
-	ADSOC = 1;
-	_nop_();
-	_nop_();
-	while (ADSOC) {
-	}
-	adWaterLevel = ADCDH;
-	adWaterLevel <<= 4;
-	tmp = ADTKDT;
-	tmp >>= 4;
-	adWaterLevel += tmp;
-	testWaterCounter++;
-	if (adWaterLevel >= waterLowAdThreshold) {
-		testWaterLowCounter++;
-	}
-	if (testWaterCounter >= D_testWaterCount) {
-		if (testWaterLowCounter >= D_testWaterLowCount) {
-			bWaterLow = 1;
-		}else {
-			bWaterLow = 0;
 		}
-		bTestWaterLevel = 0;
-		testWaterCounter = 0;
-		testWaterLowCounter = 0;
 	}
 }

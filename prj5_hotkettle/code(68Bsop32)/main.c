@@ -51,8 +51,10 @@ void main() {
 		
 		if (timer5ms >= 5) {
 			timer5ms = 0;
-			P1MODL = 0x8a;
-			GetKeys();
+			P1MODL = 0x8a;  //将模式置为上拉输入
+			P1MODH = 0x2a;
+			GetKeys();	//获取按键
+			GetTemp();	//获取温度
 		}
 	}
 //=============================================================================
@@ -100,6 +102,8 @@ void main() {
 		if (num > 9)
 			num = 0;
 	  	temp = num;
+		//显示温度
+		SMG_Display(curTemp);
 	}
 //=============================================================================
 	void DisplayProcess(){
